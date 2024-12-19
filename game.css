@@ -43,6 +43,38 @@ body{
   cursor: pointer;
 }
 
+#new-btn {
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+#new-btn:hover{
+  background-color: #D8066E;
+}
+
+#msg {
+  color: #fefea7;
+  font-size: 5vmin;
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
+
 #reset-btn{
   padding: 1rem;
   font-size: 1rem;
